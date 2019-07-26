@@ -17,8 +17,27 @@ p {
     margin: auto;
 }
 
+.navbar-brand {
+    color: #FAEEAF;
+    font-weight: 600;
+    font-size: 32px;
+    margin-right: 32px;
+}
+
+.navbar-brand:hover {
+    color: #FAEEAF;
+}
+
 .nav-link {
     color: #FAEEAF;
+    text-transform: uppercase;
+    margin: 0px 32px;
+    transition: all 0.25s;
+}
+
+.nav-link:hover {
+    color: #FAEEAF;
+    opacity: 0.75;
 }
 
 .page-title {
@@ -68,11 +87,11 @@ p {
 }
 
 hr {
-    border-top: 1px solid #0462A6;
+    border-top: 2px solid #FAEEAF;
 }
 
 .divider-wrapper {
-    margin-top: -40px;
+    margin-top: -33px;
 }
 
 .section-heading {
@@ -85,9 +104,33 @@ hr {
     background-color: #0462A6;
 }
 
+.post-date {
+    padding: 0px 16px;
+    margin: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    background-color: #0462A6;
+}
+
 .circle-avatar {
     width: 150px;
     height: 150px;
+    border-radius: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #FAEEAF;
+    display: block;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.circle-avatar-small {
+    width: 90px;
+    height: 90px;
     border-radius: 150px;
     background-position: center;
     background-size: cover;
@@ -176,8 +219,82 @@ footer h6 {
     margin-bottom: 12px;
 }
 
-.ide-name {
+.social-wrapper {
     margin: auto;
+}
+
+.social-wrapper:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.social-wrapper i {
+    display: table;
+    margin: auto;
+    font-size: 32px;
+}
+
+.social-wrapper .social-title {
+    display: block;
     text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 8px;
     margin-bottom: 24px;
+}
+
+.social-small {
+    padding: 0px;
+    margin: 0px;
+}
+
+.social-small li {
+    display: inline-block;
+}
+
+.social-small-link {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0px 4px;
+}
+
+.author-bio {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.in-text-link {
+    color: #FAEEAF;
+    font-weight: 500;
+}
+
+.in-text-link:hover {
+    color: #FAEEAF;
+}
+
+.post-title {
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 24px auto 32px;
+}
+
+.post-body {
+    margin: 24px auto;
+}
+
+.post-body p {
+    font-size: 20px;
+}
+
+.post-footer .post-go-back {
+    color: #FAEEAF;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: table;
+    margin: auto;
 }
